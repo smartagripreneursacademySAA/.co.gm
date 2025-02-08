@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Agripreneurs Academy</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem;
+        }
+        section {
+            margin: 20px;
+            padding: 20px;
+            background-color: white;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+        .button {
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            display: inline-block;
+            border-radius: 5px;
+            text-decoration: none;
+            cursor: pointer;
+        }
+        .info {
+            display: none;
+            margin-top: 20px;
+            background-color: #e7f5e8;
+            padding: 10px;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Welcome to Smart Agripreneurs Academy</h1>
+    <p>Empowering Youth for a Sustainable Future in Agribusiness</p>
+</header>
+
+<section>
+    <h2>About Us</h2>
+    <p>Smart Agripreneurs Academy is a non-profit organization dedicated to promoting youth agripreneurship in schools and rural communities. Our mission is to inspire and equip young people to realize their full potential in agriculture.</p>
+
+    <h3>Our Vision</h3>
+    <p>Attracting and retaining youth in agribusiness ventures to make them employable and job creators for sustainable livelihoods.</p>
+
+    <h3>Our Mission</h3>
+    <p>Encouraging youth to pursue and develop successful careers in the agribusiness industry with an agripreneurial mindset through education and mentoring.</p>
+</section>
+
+<section>
+    <h2>Our Programs</h2>
+    <ul>
+        <li>Awareness-Raising Seminars on Agribusiness & Climate-Resilient Farming</li>
+        <li>Project-Based Learning for Schools & Rural Communities</li>
+        <li>Agri-Tech Integration (Drones, Smart Irrigation, and Data Monitoring)</li>
+        <li>Entrepreneurship Training for Youth in Agriculture</li>
+    </ul>
+
+    <img src="https://github.com/smartagripreneursacademySAA/.co.gm/blob/main/gallary1.jpg?raw=true" alt="Agri-Tech Training" style="width:90%; max-width:600px;">
+</section>
+
+<section>
+    <h2>Our Impact</h2>
+    <p>At Smart Agripreneurs Academy*, we are transforming agriculture through education, mentorship, and technology adoption.</p>
+    
+    <p>Through our programs:</p>
+    <ul>
+        <li>We have trained over 500 students in agripreneurship.</li>
+        <li>Our initiatives have helped rural schools integrate **practical agriculture education into their curriculum.</li>
+        <li>We have introduced Agri-Tech solutions like drone farming, automated irrigation, and climate-smart agriculture.</li>
+    </ul>
+</section>
+
+<section>
+    <h2>Gallery</h2>
+    <img src="https://github.com/smartagripreneursacademySAA/.co.gm/blob/main/gallary%202.jpg?raw=true" alt="Agri-Tech Field Training" style="width:70%; max-width:600px;">
+    <img src="https://github.com/smartagripreneursacademySAA/.co.gm/blob/main/gallary%203.jpg?raw=true" alt="Drip Irrigation Farming Practices" style="width:70%; max-width:600px;">
+    
+    <video width="390" height="460" controls autoplay muted>
+        <source src="videos/video1.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    
+    <video width="390" height="460" controls autoplay muted>
+        <source src="videos/video2.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</section>
+
+<section>
+    <h2>Learn More</h2>
+    <button class="button" onclick="showInfo()">Click to Learn More</button>
+    <div class="info" id="farmInfo">
+        <p>Smart Agripreneurs Academy is committed to educating young people and smallholder farmers to create profitable and sustainable agribusiness ventures.</p>
+    </div>
+</section>
+
+<section>
+    <h2>Read About Us</h2>
+    <p>Learn more about our impact and programs:</p>
+    <a href="https://kcicconsulting.com/transforming-adversity-into-abundance-the-success-story-of-karakunku-farm/" target="_blank">Success Stories</a>
+</section>
+
+<section>
+    <h2>Contact Us</h2>
+    <p><strong>Email:</strong> <a href="mailto:smartagripreneursacademy.saa@gmail.com">smartagripreneursacademy.saa@gmail.com</a></p>
+    <p><strong>Phone:</strong> <a href="tel:+2205325004">+220 532 5004</a></p>
+    <p><strong>WhatsApp:</strong> <a href="https://wa.me/2205325004">Chat with Us</a></p>
+</section>
+
+<footer>
+    <p>&copy; 2025 Smart Agripreneurs Academy. All Rights Reserved.</p>
+</footer>
+
+<script>
+    function showInfo() {
+        var info = document.getElementById("farmInfo");
+        if (info.style.display === "none") {
+            info.style.display = "block";
+        } else {
+            info.style.display = "none";
+        }
+    }
+</script>
+
+</body>
+</html>
+
+
